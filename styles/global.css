@@ -1,0 +1,238 @@
+html,
+body {
+    padding: 0;
+    margin: 0;
+    overflow-y: auto;
+    overflow-x: hidden;
+    background: url('../public/images/background.png');
+    background-size: cover;
+    background-position: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:visited {
+    color: inherit;
+}
+
+a:active {
+    color: inherit
+}
+
+a:link {
+    color: inherit;
+}
+
+.wallet-button {
+    background: none !important;
+    font-size: 0.75rem !important;
+    color: #1E1E1E !important;
+    padding: 6px 16px !important;
+    height: auto !important;
+    line-height: 0 !important;
+    border: 1px solid #1E1E1E !important;
+    border-radius: 11px !important;
+    font-family: 'Gilroy' !important;
+}
+
+.MuiCircularProgress-root {
+    width: 70px !important;
+    height: 70px !important;
+}
+
+@media (max-width: 769px) {
+    .wallet-button {
+        display: none !important;
+    }
+}
+
+.mobile-wallet-button {
+    background: none !important;
+    font-size: 0.7rem !important;
+    color: #1E1E1E !important;
+    padding: 6px 16px !important;
+    height: auto !important;
+    line-height: 0 !important;
+    border: 1px solid #1E1E1E !important;
+    border-radius: 11px !important;
+    font-family: 'Gilroy' !important;
+}
+
+.wallet-button:hover {
+    background: #B8F2E620 !important
+}
+
+.large-wallet-button {
+    background: #F8D8B0 !important;
+    color: #000000 !important;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) !important;
+    border-radius: 58px !important;
+    font-family: 'Gilmer' !important;
+    font-style: normal !important;
+    font-weight: 700 !important;
+    font-size: 2.75rem !important;
+    line-height: 48px !important;
+    padding: 50px 96px !important;
+    border: 3px solid #000000 !important;
+}
+
+.large-wallet-button-disabled {
+    background: #6B6B6B !important;
+    color: #000000 !important;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) !important;
+    border-radius: 58px !important;
+    font-family: 'Gilmer' !important;
+    font-style: normal !important;
+    font-weight: 700 !important;
+    font-size: 2.75rem !important;
+    line-height: 48px !important;
+    padding: 36px 96px !important;
+    border: 3px solid #000000 !important;
+}
+
+.large-wallet-button:hover {
+    background: #dfa865 !important;
+}
+
+.large-wallet-button:disabled {
+    color: black !important;
+}
+
+@media (min-width: 360px) {
+
+    .large-wallet-button,
+    .large-wallet-button-disabled {
+        font-size: 1.5rem !important;
+        line-height: 28px !important;
+        padding: 14px 30px !important;
+    }
+}
+
+@media (min-width: 480px) {
+
+    .large-wallet-button,
+    .large-wallet-button-disabled {
+        font-size: 1.5rem !important;
+        line-height: 32px !important;
+        padding: 18px 34px !important;
+    }
+}
+
+@media (min-width: 768px) {
+
+    .large-wallet-button,
+    .large-wallet-button-disabled {
+        font-size: 1.875rem !important;
+        line-height: 42px !important;
+        padding: 24px 58px !important
+    }
+}
+
+@media (min-width: 896px) {
+
+    .large-wallet-button,
+    .large-wallet-button-disabled {
+        font-size: 1.875rem !important;
+        line-height: 42px !important;
+        padding: 24px 58px !important
+    }
+}
+
+@media (min-width: 1024px) {
+
+    .large-wallet-button,
+    .large-wallet-button-disabled {
+        font-size: 1.875rem !important;
+        line-height: 42px !important;
+        padding: 36px 58px !important
+    }
+}
+
+/* @media (min-width: 1280px) {
+    .large-wallet-button {
+        font-size: 1.875rem !important;
+        line-height: 42px !important;
+        padding: 24px 58px !important;
+    }
+}
+
+@media (min-width: 1366px) {
+    .large-wallet-button {
+        font-size: 1.875rem !important;
+        line-height: 42px !important;
+        padding: 24px 58px !important;
+    }
+}
+
+@media (min-width: 1440px) {
+    .large-wallet-button {
+        font-size: 2.25rem !important;
+        line-height: 42px !important;
+        padding: 30px 82px !important;
+    }
+} */
+
+@media (min-width: 1600px) {
+    .large-wallet-button {
+        font-size: 2.75rem !important;
+        line-height: 48px !important;
+        padding: 40px 96px !important;
+    }
+}
+
+
+@font-face {
+    font-family: 'Big Shoulders Display';
+    src: local('GoogleSans'), url(./../public/fonts/RedHatFont/TTF/RedHatText-Regular.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: 'Eloquia Display';
+    src: local('GoogleSans'), url(./../public/fonts/eloquiadisplay/EloquiaDisplay-ExtraBold.otf)
+}
+
+@font-face {
+    font-family: 'Questrial';
+    src: local('GoogleSans'), url(./../public/fonts/questrial/Questrial-Regular.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: local('GoogleSans'), url(./../public/fonts/Gilroy-FREE/Gilroy-FREE/Gilroy-Light.otf) format("opentype");
+}
+
+@font-face {
+    font-family: 'Gilmer';
+    src: local('GoogleSans'), url(./../public/fonts/Gilmer-Font/Gilmer\ Regular.otf) format("opentype");
+}
+
+@font-face {
+    font-family: 'Gotham';
+    src: local('GoogleSans'), url(./../public/fonts/Gotham-Font/GothamBook.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: 'Big Shoulders Display';
+    src: local('GoogleSans'), url(./../public/fonts/big-shoulders-display/BigShouldersDisplay-Regular.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: local('GoogleSans'), url(./../public/fonts/Robot/Roboto-Regular.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: 'Red Hat Display';
+    src: local('GoogleSans'), url(./../public/fonts/red-hat/RedHatDisplay-Regular.otf) format("truetype");
+}
